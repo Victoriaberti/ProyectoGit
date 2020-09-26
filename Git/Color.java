@@ -20,8 +20,8 @@ public class Color{
 
     public void variar(int valor){
         if (valor > 0){	
-            rojo = rojo + valor < 255 ? rojo + valor : 255;
-            azul = azul + valor < 255 ? azul + valor : 255;  
+            azul = azul + valor < 255 ? azul + valor : 255; 
+            rojo = rojo + valor < 255 ? rojo + valor : 255; 
         	verde = verde + valor < 255 ? verde + valor : 255;
         }
         else if (valor < 0) {
